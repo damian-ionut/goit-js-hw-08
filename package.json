@@ -5,8 +5,8 @@
   "homepage": "https://damian-ionut.github.io/goit-js-hw-08-v2/",
   "scripts": {
     "start": "parcel src/*.html",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d src",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08-v2/"
   },
   "repository": {
