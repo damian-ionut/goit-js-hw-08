@@ -4,8 +4,9 @@
   "description": "",
   "homepage": "https://damian-ionut.github.io/goit-js-hw-08-v2/",
   "scripts": {
-    "deploy": "gh-pages-deploy -- 'A custom commit message'",
     "start": "parcel src/*.html",
+    "deploy": "gh-pages-deploy",
+    "clean-source": "rimraf README.md src webroot package.json",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08-v2/"
   },
   "repository": {
